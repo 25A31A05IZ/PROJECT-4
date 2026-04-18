@@ -1,0 +1,46 @@
+START
+
+1. Display Login Page
+
+2. User enters Username and Password
+
+3. IF login is valid THEN
+       Open Dashboard
+   ELSE
+       Show "Invalid Login"
+       Go to Login Page
+   ENDIF
+
+4. Display Menu:
+       1. Student Management
+       2. Lab Management
+       3. Attendance
+       4. System Status
+       5. Reports
+       6. Logout
+
+5. User selects option
+
+6. IF option = Student Management THEN
+       Add / Update / Delete student details
+
+7. ELSE IF option = Lab Management THEN
+       Add / Update lab details
+       View available systems
+
+8. ELSE IF option = Attendance THEN
+       Mark student attendance
+       Save attendance record
+
+9. ELSE IF option = System Status THEN
+       View working / damaged systems
+
+10. ELSE IF option = Reports THEN
+        Generate attendance or lab usage report
+
+11. ELSE IF option = Logout THEN
+        Exit system
+
+12. Repeat menu until Logout selected
+
+STOP
